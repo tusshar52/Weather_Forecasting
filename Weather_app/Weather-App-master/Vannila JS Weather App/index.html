@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+
+    <!--Goggle fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,200&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- icon -->
+    <link rel="icon" href="favicon (3).ico">
+  </head>
+
+  <body>
+
+    <section id="title">
+      <div class="container-fliud">
+        <nav class ="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <em><img src="https://avatars0.githubusercontent.com/u/57825091?s=400&u=18213ec2911b6cc838d8a336bc0dd186bc34d44a&v=4" width="35" height="35" class="d-inline-block align-top" loading="lazy">
+              <a class="navbar-brand" href="https://tusshar52.github.io/resume/" target="_blank"></a>
+              Tusshar Mathpal
+            </em>
+         </nav>
+      </div>
+     </section>
+
+     <section id="input">
+        <div class="">
+          <div class="">
+            <h1>Get The Weather For a Location</h1>
+            <p class="lead">Enter Your Location</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Location">
+          </div>
+          <br>
+          <div id="profile"></div>
+        </div>
+        <div class="container text-center mt-2">
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
+
+        <div id="content">
+
+        </div>
+    </section>
+
+    <section id="foot">
+        <footer class="p-3 text-center">
+             <br>Weather.js &copy;
+        </footer>
+    </section>
+  </body>
+
+  <script src="fetch.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</html>

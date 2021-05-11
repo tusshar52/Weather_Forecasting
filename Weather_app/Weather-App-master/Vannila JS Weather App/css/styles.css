@@ -1,0 +1,23 @@
+/* title */
+#title{
+  font-family: "Montserrat";
+  background-color: #6a2c70;
+  color: #f08a5d;
+  padding: 20px;
+}
+
+
+#input{
+  font-family: "Ubuntu";
+  padding: 50px;
+  color: #f08a5d;
+  background-color: #f9ed69;
+}
+
+/* footer */
+#foot{
+  font-family: "Ubuntu";
+  padding: 50px;
+  color: #f08a5d;
+  background-color: #6a2c70;
+}
